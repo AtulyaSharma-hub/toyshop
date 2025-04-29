@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atulya Toy’s Shop - Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader">Loading...</div>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <button id="themeToggle">☀️ Light</button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="shop">
+      <h2>Our Toys Collection</h2>
+      <!-- Product Filter -->
+      <input type="text" id="productFilter" placeholder="Search toys by name...">
+      <!-- Products Grid -->
+      <div class="products">
+        <!-- Example Product Cards -->
+       
+        <!-- New Product Cards -->
+        <div class="product">
+          <img src="https://plus.unsplash.com/premium_photo-1722100465381-a6b9ad3cb996?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Animal collection</h3>
+          <p class="price">₹299</p>
+          <button class="add-to-cart" data-name="Animal collection" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1589821359444-669ad97fe847?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Car-set</h3>
+          <p class="price">₹99</p>
+          <button class="add-to-cart" data-name="Car-set" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1608756077928-b998d9375d73?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Artifact-Ancient-indian art</h3>
+          <p class="price">₹399</p>
+          <button class="add-to-cart" data-name="Artifact-Ancient-indian art" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1632506823413-200b3d091e90?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Anime Doll</h3>
+          <p class="price">₹1399</p>
+          <button class="add-to-cart" data-name="Anime Doll" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1660292785457-ef25cffef35c?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Cute Anime Action-Figure</h3>
+          <p class="price">₹5399</p>
+          <button class="add-to-cart" data-name="Cute Anime Action-Figure" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1689715623973-26d572eee22c?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Fidget-cube</h3>
+          <p class="price">₹299</p>
+          <button class="add-to-cart" data-name="Fidget-cube" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1497040059851-bd928f851c43?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Fidget-Spinner</h3>
+          <p class="price">₹99</p>
+          <button class="add-to-cart" data-name="Fidget-Spinner" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1655087751252-8d29e1bb6b32?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Kindergarden-Cutlery</h3>
+          <p class="price">₹39</p>
+          <button class="add-to-cart" data-name="Kindergarden-Cutlery" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1605428565807-109dc825ad4c?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Bold-Hotrod-Figure</h3>
+          <p class="price">₹3399</p>
+          <button class="add-to-cart" data-name="Bold-Hotrod-Figure" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1562608148-be4509d24658?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Kids remote control battery car</h3>
+          <p class="price">₹23999</p>
+          <button class="add-to-cart" data-name="Kids remote control battery car" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://plus.unsplash.com/premium_photo-1736873368992-3200f18ed8e1?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Flying remote control car</h3>
+          <p class="price">₹78399</p>
+          <button class="add-to-cart" data-name="Flying remote control car" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1592082906158-ea8a8c0f3e27?q=80&w=500&auto=format&fit=crop" alt="New Toy">
+          <h3>Battery kids car</h3>
+          <p class="price">₹19999</p>
+          <button class="add-to-cart" data-name="Battery kids car" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1722498256995-fcc480892dfd?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==" alt="New Toy">
+          <h3>Dolls-collection</h3>
+          <p class="price">₹4899</p>
+          <button class="add-to-cart" data-name="Dolls-collection" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1668119064317-af122b3a0810?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Pikachu-bundle</h3>
+          <p class="price">₹799</p>
+          <button class="add-to-cart" data-name="Pikachu-bundle" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1526509867162-5b0c0d1b4b33?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Sony-controller</h3>
+          <p class="price">₹6999</p>
+          <button class="add-to-cart" data-name="Sony-controller" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1607853202273-797f1c22a38e?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>PS5</h3>
+          <p class="price">₹929999</p>
+          <button class="add-to-cart" data-name="PS5" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1744472592823-fecf3896e01a?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Game-boy</h3>
+          <p class="price">₹999</p>
+          <button class="add-to-cart" data-name="Game-boy" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1700155007323-1e4f4e58d627?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Xbox-controller</h3>
+          <p class="price">₹9999</p>
+          <button class="add-to-cart" data-name="Xbox-controller" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1664092815859-8d9a25c719fd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>PC-controller</h3>
+          <p class="price">₹9999</p>
+          <button class="add-to-cart" data-name="PC-controller" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Shoes</h3>
+          <p class="price">₹99990</p>
+          <button class="add-to-cart" data-name="Shoes" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://plus.unsplash.com/premium_photo-1666913667082-c1fecc45275d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Tennis-rackets</h3>
+          <p class="price">₹8999</p>
+          <button class="add-to-cart" data-name="Tennis-rackets" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1670898839060-8b0a8902ee1e?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Tennis-ball</h3>
+          <p class="price">₹10</p>
+          <button class="add-to-cart" data-name="Tennis-ball" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1716817275920-d3050e26fa9b?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Chinese-board game</h3>
+          <p class="price">₹199</p>
+          <button class="add-to-cart" data-name="Chinese-board game" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1716817276052-f3030c20c117?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Casino-business game</h3>
+          <p class="price">₹999</p>
+          <button class="add-to-cart" data-name="Casino-business game" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://plus.unsplash.com/premium_photo-1719329701984-b2f879ebaa5d?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Dices-collection</h3>
+          <p class="price">₹9999</p>
+          <button class="add-to-cart" data-name="Dices-collection" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://media.istockphoto.com/id/1412860430/photo/tic-tac-toe-set-on-yellow-background-flat-lay.jpg?s=2048x2048&w=is&k=20&c=MkUe0ikvhPvlVd0VhEcl9ObTtQWAJ7w4YvE5PwvUN2g=" alt="New Toy">
+          <h3>Tic-tac-toe</h3>
+          <p class="price">₹50</p>
+          <button class="add-to-cart" data-name="Tic-tac-toe" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1739824140957-e9f3477449b5?q=80&w=1318&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Wooden-chess</h3>
+          <p class="price">₹899</p>
+         <button class="add-to-cart" data-name="Wooden-chess" data-price="399">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1740912125938-77926638e8f5?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="New Toy">
+          <h3>Mahjong-cards</h3>
+          <p class="price">₹8999</p>
+          <button class="add-to-cart" data-name="Mahjong-cards" data-price="399">Add to Cart</button>
+        </div>
+      </div>
+      <!-- Cart Display Section -->
+      <section class="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart">
+          <p>No items in cart.</p>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Atulya Toy’s Shop. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

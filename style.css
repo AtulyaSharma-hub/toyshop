@@ -1,0 +1,256 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    background: #ff9800;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #e68900;
+  }
+  
+  /* Loader */
+  .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  
+  /* Navbar Styles */
+  header {
+    background: #333;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    color: #fff;
+    padding: 8px 12px;
+    transition: background 0.3s;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    background: #555;
+    border-radius: 4px;
+  }
+  
+  /* Theme Toggle Button */
+  #themeToggle {
+    background: #444;
+    color: #fff;
+  }
+  
+  /* Hero Section (Index Page) */
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('https://images.unsplash.com/photo-1605428565807-109dc825ad4c?q=80&w=1500&auto=format&fit=crop') no-repeat center/cover;
+    color: #fff;
+  }
+  
+  .hero img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background: #ff9800;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  /* Shop Section Styles */
+  .shop {
+    padding: 40px 20px;
+  }
+  
+  .shop h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #productFilter {
+    display: block;
+    width: 80%;
+    margin: 0 auto 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .product h3 {
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Cart Section */
+  .cart-section {
+    margin: 40px 20px;
+  }
+  
+  .cart-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #cart {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 50px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* About Section */
+  .about {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact button {
+    align-self: flex-start;
+  }
+  
+  /* Scroll to Top Button */
+  .scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1000;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Dark Theme */
+  .dark-theme {
+    background: #222;
+    color: #ddd;
+  }
+  
+  .dark-theme header,
+  .dark-theme footer {
+    background: #111;
+  }
+  
+  .dark-theme nav a,
+  .dark-theme #themeToggle {
+    color: #ddd;
+  }
+  
+  .dark-theme .loader {
+    background: #222;
+    color: #ddd;
+  }
+  
+  .dark-theme .hero {
+    background: url('https://images.unsplash.com/photo-1562608148-be4509d24658?q=80&w=1500&auto=format&fit=crop') no-repeat center/cover;
+  }
+  
+  .dark-theme .product {
+    background: #333;
+    color: #ddd;
+  }
+  
